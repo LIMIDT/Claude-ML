@@ -1,0 +1,6 @@
+.obsidian/
+.vscode/
+**/data/
+__pycache__/
+*.pth
+*.pt

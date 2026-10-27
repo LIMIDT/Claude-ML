@@ -39,4 +39,9 @@ https://www.bilibili.com/video/BV1TD4y137mP/?spm_id_from=333.788.player.switch&v
 		![[Pasted image 20261021172355.png]]
 		用梯度下降解决上面的问题，找到最小的Total Loss
 		![[Pasted image 20261021172512.png]]
+
+---
+## 关联笔记
+- [[Lecture_1]] —— 这里的三个 Step 就是 Lecture_1 "三个步骤"框架在深度学习里的具体化
+- [[Lecture_7(Gradient Descent)]] —— Step 3 提到的梯度下降，这篇细讲
 		

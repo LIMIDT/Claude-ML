@@ -39,3 +39,11 @@ function的找到：人类进行督导式学习，大量的正确输入和输出
 
 
 ==**通过三个步骤确定论文里面的方法是哪个层面**==
+
+---
+## 关联笔记
+- [[Lecture_2]] —— 延续这里"三个步骤"框架，细化讲解
+- [[Lecture_6(Introduction of Deep Learning）]] —— 把这里的三个步骤具体落到深度学习（Neural Network / Loss / Gradient Descent）
+- [[Lecture_9 Convolutional Neural Network(CNN)]] —— 笔记里提到 CNN 是候选函数集合（Model）的一种
+- [[Lecture_10 Self-attention]] —— 笔记里提到的候选函数集合之一
+- [[Lecture_11 Transfomer]] —— 笔记里提到的候选函数集合之一

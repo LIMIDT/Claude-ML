@@ -25,3 +25,7 @@ Backpropagation
 					**为了减少运算就从后向前运算**
 					![[Pasted image 20261022175502.png]]
 			**相当于反向再做一个network进行运算**
+
+---
+## 关联笔记
+- [[Lecture_7(Gradient Descent)]] —— 这篇讲的链式法则是对梯度下降扩展到多层网络的补充

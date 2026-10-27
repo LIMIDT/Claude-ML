@@ -42,3 +42,9 @@ https://www.bilibili.com/video/BV1TD4y137mP/?spm_id_from=333.788.videopod.episod
 		2、模型换成LSTM（普通RNN记不住长序列）
 			关于几个方式之间的区别
 				https://www.bilibili.com/video/BV1JBDmB8EdT/?spm_id_from=333.1391.0.0
+
+---
+## 关联笔记
+- [[Lecture_10 Self-attention]] —— 笔记里"Self-attention VS RNN"的对比，这里用到的 LSTM 正是 RNN 的改良版
+- [[Lecture_11 Transfomer]] —— 这里的 BatchNorm 和 Transformer 笔记里的 Layer Normalization 是同类技术的不同变体
+- [[Lecture_5(Pytorch Tutorial)]] —— 这里的训练/验证循环代码框架来源

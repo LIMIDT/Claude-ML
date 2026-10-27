@@ -20,3 +20,8 @@ Practice_1
 			梯度一直很小的参数 → 实际步长被放大，不会几乎不动每个参数都像有**自己的学习率**
 	不同优化器对比：
 		![[Pasted image 20261021144108.png]]
+
+---
+## 关联笔记
+- [[Lecture_7(Gradient Descent)]] —— 这里对比的优化器（SGD/Adam）出自这篇的 Adaptive Learning Rate 内容
+- [[Lecture_5(Pytorch Tutorial)]] —— 训练/验证循环的代码框架来源

@@ -13,3 +13,7 @@ https://www.bilibili.com/video/BV1TD4y137mP/?spm_id_from=333.1391.0.0&p=15&vd_so
 两个配合用：
 	语音合成：先用各个击破9（产生每秒大概100个向量）再用一步到位（取采样点）
 	把一次到位改成n次到位：图片生成，模糊图片越来越清楚——==Diffusion Model==
+
+---
+## 关联笔记
+- [[Lecture_11 Transfomer]] —— 这里的"各个击破/一次到位"对应 Transformer 笔记里的 Autoregressive/Non-autoregressive(NAT)

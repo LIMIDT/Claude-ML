@@ -69,4 +69,11 @@ Self-attention VS RNN
 		![[Pasted image 20261026164939.png]]
 		![[Pasted image 20261026165009.png]]
 		Self-attention的运算量很大
+
+---
+## 关联笔记
+- [[Lecture_9 Convolutional Neural Network(CNN)]] —— 笔记里"Self-attention VS CNN"的对比点
+- [[HW_2]] —— 笔记里"Self-attention VS RNN"的对比点，HW2 里用到的 LSTM 正是 RNN 的改良版
+- [[Lecture_11 Transfomer]] —— Transformer 的 encoder/decoder 内部构件就是 Self-attention
+- [[Lecture_2]] —— 笔记里提到"近年来影像处理范围扩大，用self_attention更多"
 		

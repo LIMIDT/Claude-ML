@@ -6,3 +6,8 @@ https://www.bilibili.com/video/BV1TD4y137mP/?spm_id_from=333.788.videopod.episod
 |**Notebook（.ipynb）**|一种"代码 + 输出 + 文字"混在一起的文件，代码分成一格一格（cell），可以单独运行某一格|
 |**挂载 Google Drive**|让 Colab 能读写你网盘里的文件（因为每次重开机器，本地文件都清空）|
 |**运行时类型**|在那里选"给我一块 GPU"|
+
+---
+## 关联笔记
+- [[Lecture_5(Pytorch Tutorial)]] —— 紧接着的 PyTorch 工具教学
+- [[Hw_1]] —— 第一个在 Colab/本地环境跑的作业

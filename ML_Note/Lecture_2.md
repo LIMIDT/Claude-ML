@@ -14,4 +14,9 @@ https://www.bilibili.com/video/BV1TD4y137mP/?vd_source=af4cf07579045595f3fad858b
 	训练资料越少范围约保守一点
 	![[Pasted image 20261017163048.png]]
 	近年来影像处理范围扩大，用self_attention更多![[Pasted image 20261017163211.png]]
+
+---
+## 关联笔记
+- [[Lecture_1]] —— 这篇延续的"三个步骤"框架出自这里
+- [[Lecture_10 Self-attention]] —— 笔记里提到"近年来影像处理范围扩大，用self_attention更多"
 	

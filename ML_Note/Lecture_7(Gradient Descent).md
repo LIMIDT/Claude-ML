@@ -37,3 +37,9 @@ Tylor Serise处理二维梯度下降
 Limitation of Gradient Decent
 	![[Pasted image 20261022171201.png]]
 	有可能微分是零但还是“高原”不是最低值
+
+---
+## 关联笔记
+- [[Lecture_6(Introduction of Deep Learning）]] —— Step 3 提到的梯度下降，这篇是细讲
+- [[Lecture 8_Backpropagation（反向传播，BP算法）]] —— 把这里的梯度下降扩展到多层网络（链式法则）
+- [[Hw_1]] —— 笔记里对比的 SGD / Adam 等优化器，HW1 的 Practice_1 实际用到

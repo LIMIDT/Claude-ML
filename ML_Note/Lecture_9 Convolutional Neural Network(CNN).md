@@ -67,3 +67,8 @@ Application
 	![[Pasted image 20261022211052.png]]
 	语音文字上也可以用CNN（要根据特性设计）
 	![[Pasted image 20261022211241.png]]
+
+---
+## 关联笔记
+- [[Lecture_10 Self-attention]] —— 笔记里"Self-attention VS CNN"的对比点
+- [[Lecture_1]] —— 笔记里提到 CNN 是候选函数集合（Model）的一种

@@ -25,13 +25,16 @@ Sequence2Sequence
 		encoder（被输入一组向量）
 			![[Pasted image 20261027203849.png]]
 			self-attention、RNN、CNN都是
+				🔗 对应 [[Lecture_9 Convolutional Neural Network(CNN)]] 的卷积、[[Lecture_10 Self-attention]] 的自注意力机制——这里说的三种候选结构就是前面学过的这几个
 			![[Pasted image 20261027203947.png]]
 			然而在transfomer里面还有变化（residual connection）
 			![[Pasted image 20261027204409.png]]
 			**一个block里面的过程**，进行了左边的运算以后才去右边进行Fully Connected
 			用的是layer normalization，不是batch，不用考虑。要进行两次normalization
+				🔗 对应 [[HW_2]] 里用到的 BatchNorm——layer/batch normalization 是同类技术，归一化的对象不一样
 			![[Pasted image 20261027205012.png]]
 			前向传播就是fully neural network
+				🔗 对应 [[Lecture_6(Introduction of Deep Learning）]] 的 Fully Connected Feedforward Network 前向传播
 			![[Pasted image 20261027205113.png]]
 			 **在transfomer里为什么做的是layer的normalization不是batch的normalization？**
 				 通俗理解：batch是和“其他人”一起进行标准化，layer是和自己对比进行标准化
@@ -41,6 +44,7 @@ Sequence2Sequence
 			Autoregressive的decoder
 				![[Pasted image 20261027211505.png]]
 				1、用一个特殊的token作为开始，输出一个特殊的很长的向量，长度为你觉得机器可能输出的字符数量产生这个向量之前先进行softmax，分数最高的作为第一个输出
+					🔗 对应 [[Lecture_6(Introduction of Deep Learning）]] 的 softmax function（把分数变成概率）
 				2、把第一个输出作为输入和begin的token两个进行输入输出第二个
 				![[Pasted image 20261027211920.png]]
 				但是存在“一步错，步步错”的可能（和residual connection在encoder里面一样）
@@ -49,6 +53,7 @@ Sequence2Sequence
 					mask-attention
 						![[Pasted image 20261027212328.png]]
 						产生b1的时候只考虑a1，不考虑别的
+							🔗 这里的 α 计算方式对应 [[Lecture_10 Self-attention]] 里 Query & Key & Value 算注意力分数那套流程，只是加了遮罩
 						![[Pasted image 20261027212533.png]]
 						这是self-attention👆
 						![[Pasted image 20261027212608.png]]
@@ -57,6 +62,7 @@ Sequence2Sequence
 					decoder还要自己决定输出的长度
 						（encoder是输入几个输出几个）所以不仅要begin还要有end，不然不会停下来，但是要让机器知道自己什么时候end
 			Non-autoregressive（NAT）
+				🔗 对应 [[Lecture_3]] 的"各个击破/一次到位"——Autoregressive ≈ 各个击破，NAT ≈ 一次到位
 				直接输出一句话，但是怎么知道该放多少个begin？
 				![[Pasted image 20261027213904.png]]
 					1、另外训练一个classifier，输出长度的字数
@@ -78,8 +84,10 @@ Sequence2Sequence
 				一般来说每个encoder都要和decoder的每一层都要cross，但是也有不同的玩法
 					![[Pasted image 20261027215857.png]]
 	Training
+		🔗 整个训练流程底层依然是 [[Lecture_7(Gradient Descent)]] 的梯度下降 + [[Lecture 8_Backpropagation（反向传播，BP算法）]] 的链式法则在起作用
 		![[Pasted image 20261027220341.png]]
 		先对正确答案的“机”进行one-hot编码，然后算正确答案和预测之间的交叉熵👆（和分类很像）
+			🔗 对应 [[Lecture_6(Introduction of Deep Learning）]] 的 Cross Entropy 和 softmax——和分类任务用的是同一套损失函数
 		![[Pasted image 20261027220620.png]]
 		**在训练的时候decoder的输入是正确答案**（Teacher Forcing）
 		![[Pasted image 20261027220840.png]]

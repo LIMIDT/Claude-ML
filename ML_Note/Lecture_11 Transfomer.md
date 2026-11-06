@@ -31,7 +31,7 @@ Sequence2Sequence
 			![[Pasted image 20261027204409.png]]
 			**一个block里面的过程**，进行了左边的运算以后才去右边进行Fully Connected
 			用的是layer normalization，不是batch，不用考虑。要进行两次normalization
-				🔗 对应 [[HW_2]] 里用到的 BatchNorm——layer/batch normalization 是同类技术，归一化的对象不一样
+				🔗 对应 [[Hw_2]] 里用到的 BatchNorm——layer/batch normalization 是同类技术，归一化的对象不一样
 			![[Pasted image 20261027205012.png]]
 			前向传播就是fully neural network
 				🔗 对应 [[Lecture_6(Introduction of Deep Learning）]] 的 Fully Connected Feedforward Network 前向传播
@@ -121,6 +121,6 @@ Sequence2Sequence
 ---
 ## 关联笔记
 - [[Lecture_10 Self-attention]] —— Transformer 的 encoder/decoder 内部构件就是 Self-attention
-- [[HW_2]] —— 笔记里的 Layer Normalization 和 HW2 用到的 BatchNorm 是同类技术的不同变体
+- [[Hw_2]] —— 笔记里的 Layer Normalization 和 HW2 用到的 BatchNorm 是同类技术的不同变体
 - [[Lecture_3]] —— 这里的 Autoregressive/Non-autoregressive(NAT) 对应 Lecture_3 的"各个击破/一次到位"
 - [[Lecture_1]] —— 笔记里提到 Transformer 是候选函数集合（Model）的一种

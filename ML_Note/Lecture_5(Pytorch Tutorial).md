@@ -63,4 +63,4 @@ PyTorch Documentation
 ## 关联笔记
 - [[Lecture_4(Colab Tutorial)]] —— 运行环境的前置教学
 - [[Hw_1]] —— 这里的训练/验证循环框架用在了 HW1
-- [[HW_2]] —— 这里的训练/验证循环框架也用在了 HW2
+- [[Hw_2]] —— 这里的训练/验证循环框架也用在了 HW2

@@ -12,3 +12,9 @@ __pycache__/
 **/Hw_1/runs/
 **/Hw_1/*.pdf
 **/*.ckpt
+
+# HW3 图片数据，约1.16GB，可重新下载，不传
+**/Hw_3/train/
+**/Hw_3/valid/
+**/Hw_3/test/
+**/Hw_3/submission.csv

@@ -42,7 +42,8 @@ print(f"训练集 {len(train_set)} 张，测试集 {len(test_set)} 张，训练�
 
 # 2. 模型：直接调用 torchvision 里写好的 ResNet18
 #    原本它是给 1000 类 ImageNet 用的，这里把最后一层的输出改成 10 类
-model = models.resnet18(num_classes=10).to(device)
+from resnet_kuangliu import ResNet18
+model = ResNet18().to(device)
 
 n_params = sum(p.numel() for p in model.parameters())
 print(f"模型参数量: {n_params:,}")

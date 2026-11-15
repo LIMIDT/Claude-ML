@@ -41,3 +41,5 @@ label smoothing
 	改成
 	criterion = nn.CrossEntropyLoss(label_smoothing=0.1）
 	相当于让模型最后不要训练到把正确类推到百分百，不会部分去讨好目标
+nn.Linear
+	内部计算：输出=权重矩阵×输入+偏置
